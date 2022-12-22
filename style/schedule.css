@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(96, 96, 96);
+}
+
+.days {
+  width: 800px;
+  background-color: hsl(208, 100%, 97%, 0.8);
+  margin: auto;
+  border-radius: 10px;
+}
+
+.days li {
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  padding: 20px 20px;
+  text-align: center;
+  box-shadow: 4px 4px 10px rgb(41, 41, 41);
+}
+.blank {
+  height: 100px;
+}
+
+.sub_container {
+  height: 450px;
+  width: 800px;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.sub_container li {
+  background: linear-gradient(100deg, rgb(236, 231, 231), rgb(172, 171, 171));
+  border-radius: 10px;
+  width: 380px;
+  box-shadow: 8px 8px 10px rgb(41, 41, 41);
+}
+
+.sub_container li p {
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.sub_container img {
+  height: 430px;
+  width: 360px;
+  border-radius: 10px;
+  margin: auto;
+  border: 10px solid white;
+}

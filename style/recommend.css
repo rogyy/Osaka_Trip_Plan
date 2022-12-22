@@ -1,0 +1,98 @@
+.blank {
+  height: 100px;
+}
+
+#page_logo a {
+  color: rgb(14, 217, 217);
+}
+
+header li a {
+  color: rgb(68, 219, 219);
+}
+
+header nav a:hover{
+  background-color: rgb(68, 219, 219);
+  color: rgb(59, 59, 59);
+}
+
+#sub_title_recommend{
+  width: 980px;
+  height: 110px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: azure;
+}
+
+#sub_title_recommend h3{
+  font-size: 40px;
+  margin: auto;
+  color: rgb(67, 223, 223);
+  text-shadow: 1px 1px 1px rgb(72, 72, 72);
+}
+
+main ul li img {
+  width: 220px;
+  height: 240px;
+}
+
+
+.card_container {
+  width: 980px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
+
+h2{
+  font-size: 25px;
+  color: rgb(96, 96, 96);
+}
+
+main li {
+  display: flex;
+  background-color: azure;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgb(0, 0, 0);
+  overflow: hidden;
+  width: 480px;
+}
+
+.card_container li:nth-of-type(3) {
+  grid-column: 1/ span 2;
+  width: 980px;
+}
+
+.card_container li:nth-of-type(6) {
+  grid-column: 1/ span 2;
+  width: 980px;
+}
+
+main li img {
+  object-fit: fill;
+  border: 0.2px solid gray;
+}
+
+.items {
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.link{
+  text-align: end;
+  font-size: 18px;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(14, 217, 217);
+  font-weight: 700;
+  padding: 10px;
+}
+
+.link a:hover {
+  background-color: rgb(183, 239, 246);
+  border-radius: 6px;
+  grid-column: 1/ 2;
+}
